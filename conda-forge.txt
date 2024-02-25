@@ -1,1 +1,8 @@
-
+# Python packages
+numpy
+scipy
+# R packages
+r-tidyverse
+r-ggplot2
+r-lme4
+r-emmeans
