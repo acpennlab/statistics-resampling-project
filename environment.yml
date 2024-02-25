@@ -1,4 +1,4 @@
-name: statistics-resampling-online
+name: statistics-resampling-project
 channels:
   - conda-forge
 dependencies:
