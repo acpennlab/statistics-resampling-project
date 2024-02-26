@@ -6,6 +6,6 @@ If you fork this repository or use it as a template, and do not wish to modify t
 
 If you wish to edit the environment defined by the files in the `binder` folder, then you will need to update the following URL using [mybinder](https://mybinder.org/).
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/acpennlab/statistics-resampling-project/master?labpath=index.ipynb) (uses envrionment and content from here)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/acpennlab/statistics-resampling-project/master?labpath=index.ipynb)
 
 The notebooks in this example project are still under construction.
