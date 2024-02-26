@@ -1,0 +1,20 @@
+name: binder-badge-nbgitpuller
+on:
+  pull_request_target:
+  push:
+
+jobs:
+  badge:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: write
+    steps:
+      - uses: acpennlab/statistics-resampling-online@master
+        with:
+          githubToken: ${{ secrets.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 }}
+          environmentRepo: acpennlab/statistics-resampling-online/master
+          updateDescription: true
+          urlpath: lab
+          persistentLink: false
