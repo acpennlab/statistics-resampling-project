@@ -11,5 +11,6 @@ dependencies:
   - make
   # Spreadsheet editor for JupyterLab
   - jupyterlab-spreadsheet-editor
+  - jupyter-fs
   # R (including package manager)
   - r-base
