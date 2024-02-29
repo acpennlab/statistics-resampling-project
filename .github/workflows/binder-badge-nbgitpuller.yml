@@ -12,7 +12,7 @@ jobs:
     steps:
       - uses: manics/action-binderbadge@main
         with:
-          githubToken: ${{ secrets.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 }}
+          githubToken: ${{ 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 }}
           environmentRepo: acpennlab/statistics-resampling-online/master
           updateDescription: true
           urlpath: lab
