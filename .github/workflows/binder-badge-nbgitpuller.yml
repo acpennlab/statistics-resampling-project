@@ -13,7 +13,7 @@ jobs:
       - uses: manics/action-binderbadge@main
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
-          environmentRepo: acpennlab/statistics-resampling-online/master
+          environmentRepo: acpennlab/statistics-resampling-online/jammy
           updateDescription: true
           urlpath: lab
           persistentLink: false
