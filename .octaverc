@@ -1,10 +1,15 @@
-# Warnings to turn off
-warning('off', 'Octave:shadowed-function');
-warning('off', 'Octave:legacy-function');
+# Set environmental variables
+setenv ('XDG_RUNTIME_DIR','/tmp/runtime-jovyan');
+setenv ('GNUTERM','qt');
 
-# Packages to pre-install
-pkg install -forge statistics-resampling
+# Warnings to turn off
+warning ('off', 'Octave:shadowed-function');
+warning ('off', 'Octave:legacy-function');
 
 # Packages to pre-load
-pkg load statistics-resampling
-
+try
+  pkg load io tablicious statistics statistics-resampling
+catch
+  # We expect to catch an error when running postBuild since
+  # packages cannot be loaded before they are installed
+end
