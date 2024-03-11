@@ -1,6 +1,6 @@
 # Set environmental variables
-setenv ('XDG_RUNTIME_DIR','/tmp/runtime-jovyan');
-setenv ('GNUTERM','qt');
+setenv ('XDG_RUNTIME_DIR', '/tmp/runtime-jovyan');
+setenv ('GNUTERM', 'qt');
 
 # Warnings to turn off
 warning ('off', 'Octave:shadowed-function');
