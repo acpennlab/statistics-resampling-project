@@ -13,6 +13,7 @@ dependencies:
   # Python
   - python == 3.10.12
   - ipyparallel == 8.6.1
+  - ipysheet == 0.7.0
   - numpy == 1.23.1
   - scipy == 1.12.0
   - plotnine == 0.13.0
@@ -25,4 +26,4 @@ dependencies:
   - jupyterlab-spreadsheet-editor == 0.6.1
   - jupyterlab-drawio == 0.9.0
   - jupyterlab-latex == 3.1.0
-  - jupyterlab-filesystem-access == 0.5.3 
+  # - jupyterlab-filesystem-access == 0.5.3 
