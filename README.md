@@ -6,8 +6,6 @@ This is an example project using [statistics-resampling-online](https://github.c
 
 🚧🔧 The documentation and example notebooks for this project are under construction 🔨🚧  
 
-  
-
 ## How to use this template for your own data analysis projects
 
 This binder loads a JupyterLab instance of your Jupyter
