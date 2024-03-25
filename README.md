@@ -39,3 +39,7 @@ Please cite the following in any publication that uses the [statistics-resamplin
 * Penn, Andrew Charles. (2020). Resampling methods for small samples or samples with complex dependence structures. *Zenodo*. [https://doi.org/10.5281/zenodo.3992392](https://doi.org/10.5281/zenodo.3992392)
   
   [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3992392.svg)](https://doi.org/10.5281/zenodo.3992392)
+
+The documentation for the statistics-resampling package can be found at the following link: 
+
+[![Documentation](https://img.shields.io/badge/docs-online-blue.svg)](https://gnu-octave.github.io/statistics-resampling/)
