@@ -26,7 +26,7 @@ This binder loads a JupyterLab instance of the `statistics-resampling-project` r
 * On the GitHub repository page in your browser, click the updated Binder badge to launch your project
 * Edit or upload your data and create and edit your notebooks within the temporary instance of JupyterLab
 * From the file menu, save and then download your files to your local copy of the repository (replacing existing files if necessary). Note that if your instance of Binder times-out, use the Jupyter-Offline-Notebook toolbar to store the visible copy of the notebook (as described [here](https://github.com/manics/jupyter-offlinenotebook)). 
-* Finally, in GitHub desktop, enter a short commit summary and push the changes to the `master` branch of your online GitHub repository. Next time, simply return to your GitHub repo site and repeat the last four steps of these instructions to continue with your project. You have embraced open-science!
+* Finally, in GitHub desktop, enter a short commit summary and push the changes to the `master` branch of your online GitHub repository. Next time, simply return to your GitHub repo site and repeat the last four steps of these instructions to continue with your project.
 
 If you use this resource, make it easier to find by giving the [acpennlab/statistics-resampling-project](https://github.com/acpennlab/statistics-resampling-project) repository a [star](https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars). 🌟
 
