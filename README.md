@@ -33,3 +33,9 @@ If you use this resource, make it easier to find by giving the [acpennlab/statis
 If you have any issues or suggestions for the [statistics-resampling-online environment](https://github.com/acpennlab/statistics-resampling-online), please post an issue [here](https://github.com/acpennlab/statistics-resampling-online/issues).
 
 If you have any issues or suggestions for the example content at [statistics-resampling-project](https://github.com/acpennlab/statistics-resampling-project), please post an issue [here](https://github.com/acpennlab/statistics-resampling-project/issues).
+
+Please cite the following in any publication that uses the [statistics-resampling](https://github.com/gnu-octave/statistics-resampling) package, which is included in this binder:
+
+* Penn, Andrew Charles. (2020). Resampling methods for small samples or samples with complex dependence structures. *Zenodo*. [https://doi.org/10.5281/zenodo.3992392](https://doi.org/10.5281/zenodo.3992392)
+  
+  [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3992392.svg)](https://doi.org/10.5281/zenodo.3992392)
