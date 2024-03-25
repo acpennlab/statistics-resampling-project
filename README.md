@@ -28,7 +28,7 @@ This binder loads a JupyterLab instance of your Jupyter
 * From the file menu, save and then download your files to your local copy of the repository (replacing exiting files if necessary). Note that if your instance of Binder timesout, use the Jupyter Offline Notebook tools to store the visible copy of the notebook (as described [here](https://github.com/manics/jupyter-offlinenotebook)). 
 * Finally, using GitHub desktop, push the changes to your GitHub repositroy online. Next time, simply return to your GitHub repo site and repeat the last four steps of these instructions to continue on your project.
 
-If you use this resource, make it easier to find by giving the [acpennlab/statistics-resampling-project](https://github.com/acpennlab/statistics-resampling-project) repository a [star](https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars).
+If you use this resource, make it easier to find by giving the [acpennlab/statistics-resampling-project](https://github.com/acpennlab/statistics-resampling-project) repository a [star](https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars). 🌟
 
 If you have any issues or suggestions for the [statistics-resampling-online environment](https://github.com/acpennlab/statistics-resampling-online), please post an issue [here](https://github.com/acpennlab/statistics-resampling-online/issues).
 
