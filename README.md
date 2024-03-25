@@ -8,7 +8,7 @@ This is an example project using [statistics-resampling-online](https://github.c
 
 ## How to use this template for your own data analysis projects
 
-This binder loads a JupyterLab instance of your repository. Here follows a list of steps describing how you can set up a GitHub repository to use `statistics-resampling-online` for your own data analysis project.
+This binder loads a JupyterLab instance of the `statistics-resampling-project` repository. Here follows a list of steps describing how you can set up a GitHub repository to use `statistics-resampling-online` for your own data analysis project.
 * If you don't already have a GitHub account, create one by following the instructions [here](https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account)
 * If you don't already have GitHub Desktop app, download and install it by following the instructions [here](https://docs.github.com/en/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop)
 * In your browser, go to the [acpennlab/statistics-resampling-project](https://github.com/acpennlab/statistics-resampling-project) and click the 'Use this template' button and 'Create a new repository' from the dropdown menu. In the settings for your new GitHub repository, give it a name and description and ensure that the visibility is set to `public`. (Further information about creating a GitHub repository from a template is available [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
