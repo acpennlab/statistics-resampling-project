@@ -8,15 +8,22 @@ This is an example project using [statistics-resampling-online](https://github.c
 
 **Usage** 
 
+This binder loads a JupyterLab instance of your Jupyter
 * If you don't already have a GitHub account, create one by following the instructions [here](https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account)
 * If you don't already have GitHub Desktop app, download and install it by following the instructions [here](https://docs.github.com/en/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop)
-* Create a GitHub repository for you project online using `acpennlab/statistics-resampling-project` as a template.
-* Edit the link in the Binder badge using a URL created with [nbgitpuller](https://nbgitpuller.readthedocs.io/en/latest/link.html?tab=binder) using the following settings: 
-  *  Environment: 
-  *  Worksheets:
-* Make a local copy of your repository by clone your new statistics-resampling-project repository in the GitHub Desktop app
-* Edit the settings in your browser settings to prompt the user for the location of loaded files and ensure that java script is enabled.
+* In your browser, go to the [acpennlab/statistics-resampling-project](https://github.com/acpennlab/statistics-resampling-project) and click the 'Use this template' button and 'Create a new repository' from the dropdown menu. In the settings for your new GitHub repository, give it a name and description and ensure that the visibility is set to `public`. (Further information about creating a GitHub repository from a template is available [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+* In your new GitHub respoitory, edit the link in the Binder badge using a new URL created with [nbgitpuller](https://nbgitpuller.readthedocs.io/en/latest/link.html?tab=binder) with the following settings: 
+  * BinderHub URL: `https://mybinder.org` 
+  * Git Environment Repository URL: `https://github.com/acpennlab/statistics-resampling-online` 
+  * Git Environment Repository Branch: `jammy-docker`  
+  * Git Content Repository URL: `https://github.com/<owner>/<repository>`  
+  * Git Environment Repository Branch: `master`  
+  * File to open: `index.ipynb`
+  * Application to Open: `JupyterLab`
+  *N.B Ensure that you replace <owner> and <repository> with your GitHub ID and the name you gave to your statistics-resampling-project repository*
+* Make a local copy of your repository by cloning your new statistics-resampling-project repository using the GitHub Desktop app by following the instructions [here](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop)
+* Edit the settings in your browser settings to prompt the user for the location of loaded files and ensure that java script is enabled. How to do this well depend on your browser. For Chrome, see the section on how to 'Change download location' [here](https://support.google.com/chrome/answer/95759?hl=en-GB&co=GENIE.Platform%3DDesktop#zippy=%2Cchange-download-locations) 
 * On the GitHub repository page in your browser, click the updated Binder badge to launch your project
 * Edit or upload your data and create and edit your notebooks within the temporary instance of JupyterLab
-* Save and download your files to your local copy of the repository (replacing exiting files if necessary.
-* Using GitHub desktop, push the changes to your GitHub repositroy online 
+* From the file menu, save and then download your files to your local copy of the repository (replacing exiting files if necessary). Note that if your instance of Binder timesout, use the Jupyter Offline Notebook tools to store the visible copy of the notebook (as described [here](https://github.com/manics/jupyter-offlinenotebook)). 
+* Finally, using GitHub desktop, push the changes to your GitHub repositroy online. Next time, simply return to your GitHub repo site and repeat the last four steps of these instructions to continue on your project.
