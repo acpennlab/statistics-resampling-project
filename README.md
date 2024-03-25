@@ -8,7 +8,7 @@ This is an example project using [statistics-resampling-online](https://github.c
 
   
 
-**Usage** 
+**How to use this template for your own data analysis projects** 
 
 This binder loads a JupyterLab instance of your Jupyter
 * If you don't already have a GitHub account, create one by following the instructions [here](https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account)
