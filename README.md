@@ -6,7 +6,7 @@ This is an example project using [statistics-resampling-online](https://github.c
 
 🚧🔧 The documentation and example notebooks for this project are under construction 🔨🚧  
 
-
+  
 
 **Usage** 
 
