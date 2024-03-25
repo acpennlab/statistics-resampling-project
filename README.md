@@ -22,7 +22,7 @@ This binder loads a JupyterLab instance of your Jupyter
   * Git Environment Repository Branch: `master`  
   * File to open: `index.ipynb`
   * Application to Open: `JupyterLab`  
-  *N.B Ensure that you replace <owner> and <repository> with your GitHub ID and the name you gave to your statistics-resampling-project repository*
+  *N.B Ensure that you replace \<owner\> and \<repository\> with your GitHub ID and the name you gave to your statistics-resampling-project repository*
 * Make a local copy of your repository by cloning your new statistics-resampling-project repository using the GitHub Desktop app by following the instructions [here](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop)
 * Edit the settings in your browser settings to prompt the user for the location of loaded files and ensure that java script is enabled. How to do this well depend on your browser. For Chrome, see the section on how to 'Change download location' [here](https://support.google.com/chrome/answer/95759?hl=en-GB&co=GENIE.Platform%3DDesktop#zippy=%2Cchange-download-locations) 
 * On the GitHub repository page in your browser, click the updated Binder badge to launch your project
