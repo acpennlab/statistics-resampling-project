@@ -14,10 +14,10 @@ This binder loads a JupyterLab instance of the `statistics-resampling-project` r
 
 ### Method 1
 Here follows a list of steps describing how you can set up a GitHub repository to use `statistics-resampling-online` for your own data analysis project.
-* If you don't already have a GitHub account, create one by following the instructions [here](https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account)
-* If you don't already have GitHub Desktop app, download and install it by following the instructions [here](https://docs.github.com/en/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop)
-* In your browser, go to the [acpennlab/statistics-resampling-project](https://github.com/acpennlab/statistics-resampling-project) and click the 'Use this template' button and 'Create a new repository' from the dropdown menu. In the settings for your new GitHub repository, give it a name and description and ensure that the visibility is set to `public`. (Further information about creating a GitHub repository from a template is available [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
-* In your new GitHub respoitory, edit the link in the Binder badge using a new URL created with [nbgitpuller](https://nbgitpuller.readthedocs.io/en/latest/link.html?tab=binder) with the following settings: 
+1. If you don't already have a GitHub account, create one by following the instructions [here](https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account)
+2. If you don't already have GitHub Desktop app, download and install it by following the instructions [here](https://docs.github.com/en/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop)
+3. In your browser, go to the [acpennlab/statistics-resampling-project](https://github.com/acpennlab/statistics-resampling-project) and click the 'Use this template' button and 'Create a new repository' from the dropdown menu. In the settings for your new GitHub repository, give it a name and description and ensure that the visibility is set to `public`. (Further information about creating a GitHub repository from a template is available [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
+4. In your new GitHub respoitory, edit the link in the Binder badge using a new URL created with [nbgitpuller](https://nbgitpuller.readthedocs.io/en/latest/link.html?tab=binder) with the following settings: 
   * BinderHub URL: `https://mybinder.org` 
   * Git Environment Repository URL: `https://github.com/acpennlab/statistics-resampling-online` 
   * Git Environment Repository Branch: `jammy-docker`  
@@ -26,15 +26,15 @@ Here follows a list of steps describing how you can set up a GitHub repository t
   * File to open: `index.ipynb`
   * Application to Open: `JupyterLab`  
   *N.B Ensure that you replace \<owner\> and \<repository\> with your GitHub ID and the name that you gave to your repository upon creation*
-* Make a local copy of your repository by cloning your new statistics-resampling-project repository using the GitHub Desktop app by following the instructions [here](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop)
-* Edit the settings in your browser settings to prompt the user for the location of loaded files and ensure that java script is enabled. How to do this well depend on your browser. For Chrome, see the section on how to *'Change download location'* [here](https://support.google.com/chrome/answer/95759?hl=en-GB&co=GENIE.Platform%3DDesktop#zippy=%2Cchange-download-locations) 
-* On the GitHub repository page in your browser, click the updated Binder badge to launch your project
-* Edit or upload your data and create and edit your notebooks within the temporary instance of JupyterLab
-* From the file menu, save and then download your files to your local copy of the repository (replacing existing files if necessary). Note that if your instance of Binder times-out, use the Jupyter-Offline-Notebook toolbar to store the visible copy of the notebook (as described [here](https://github.com/manics/jupyter-offlinenotebook)). 
-* Finally, in GitHub desktop, enter a short commit summary and push the changes to the `master` branch of your online GitHub repository. Next time, simply return to your GitHub repo site and repeat the last four steps of these instructions to continue with your project.
+5. Make a local copy of your repository by cloning your new statistics-resampling-project repository using the GitHub Desktop app by following the instructions [here](https://docs.github.com/en/desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop)
+6. Edit the settings in your browser settings to prompt the user for the location of loaded files and ensure that java script is enabled. How to do this well depend on your browser. For Chrome, see the section on how to *'Change download location'* [here](https://support.google.com/chrome/answer/95759?hl=en-GB&co=GENIE.Platform%3DDesktop#zippy=%2Cchange-download-locations) 
+7. On the GitHub repository page in your browser, click the updated Binder badge to launch your project
+8. Edit or upload your data and create and edit your notebooks within the temporary instance of JupyterLab
+9. From the file menu, save and then download your files to your local copy of the repository (replacing existing files if necessary). Note that if your instance of Binder times-out, use the Jupyter-Offline-Notebook toolbar to store the visible copy of the notebook (as described [here](https://github.com/manics/jupyter-offlinenotebook)). 
+10. Finally, in GitHub desktop, enter a short commit summary and push the changes to the `master` branch of your online GitHub repository. Next time, simply return to your GitHub repo site and repeat the last four steps (7-10) of these instructions to continue with your project.
 
 ### Method 2
-Using the Git extension in Jupyterlab, more details to follow shortly...
+This method uses the Git extension in Jupyterlab to push changes (saved and stashed commits) directly to the GitHub reposiory online. In addition to creating a GitHub account and repository (steps 1, 3 and 4 of method 1), pushing commits requires you to enter your username (which is the ownner of the repository) and a personal access token. To create a classic personal access token, follow the instructions [here](https://docs.github.com/en/enterprise-server@3.9/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) - you will only need to include the `repo` scopes for this personal access token. More details to follow shortly...
 
 
 ## Links
