@@ -34,8 +34,10 @@ Here follows a list of steps describing how you can set up a GitHub repository t
 * Finally, in GitHub desktop, enter a short commit summary and push the changes to the `master` branch of your online GitHub repository. Next time, simply return to your GitHub repo site and repeat the last four steps of these instructions to continue with your project.
 
 ### Method 2
+Using the Git extension in Jupyterlab, more details to follow shortly...
 
 
+## Links
 If you use this resource, make it easier to find by giving the [acpennlab/statistics-resampling-project](https://github.com/acpennlab/statistics-resampling-project) repository a [star](https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars). 🌟
 
 If you have any issues or suggestions for the [statistics-resampling-online environment](https://github.com/acpennlab/statistics-resampling-online), please post an issue [here](https://github.com/acpennlab/statistics-resampling-online/issues).
