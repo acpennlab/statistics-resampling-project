@@ -4,11 +4,16 @@ This is an example project using [statistics-resampling-online](https://github.c
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/acpennlab/statistics-resampling-online/jammy-docker?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252Facpennlab%252Fstatistics-resampling-project%26urlpath%3Dlab%252Ftree%252Fstatistics-resampling-project%252Findex.ipynb%26branch%3Dmaster)
 
+Note that using this resources requires an active internet connection and an internet browser with javascript enabled. (If you don't know what that means then it probably is already!)
+
 🚧🔧 Parts of the documentation and example notebooks for this project are under construction 🔨🚧  
 
 ## How to use this template for your own data analysis projects
 
-This binder loads a JupyterLab instance of the `statistics-resampling-project` repository. Here follows a list of steps describing how you can set up a GitHub repository to use `statistics-resampling-online` for your own data analysis project.
+This binder loads a JupyterLab instance of the `statistics-resampling-project` repository. There are two possible methods that we recommend for using `statistics-resampling-online` for longer-term analysis projects, one that requires a local installation of GitHub Desktop (method 1) and one that is online-only (method 2).
+
+### Method 1
+Here follows a list of steps describing how you can set up a GitHub repository to use `statistics-resampling-online` for your own data analysis project.
 * If you don't already have a GitHub account, create one by following the instructions [here](https://docs.github.com/en/get-started/onboarding/getting-started-with-your-github-account)
 * If you don't already have GitHub Desktop app, download and install it by following the instructions [here](https://docs.github.com/en/desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop)
 * In your browser, go to the [acpennlab/statistics-resampling-project](https://github.com/acpennlab/statistics-resampling-project) and click the 'Use this template' button and 'Create a new repository' from the dropdown menu. In the settings for your new GitHub repository, give it a name and description and ensure that the visibility is set to `public`. (Further information about creating a GitHub repository from a template is available [here](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
@@ -27,6 +32,9 @@ This binder loads a JupyterLab instance of the `statistics-resampling-project` r
 * Edit or upload your data and create and edit your notebooks within the temporary instance of JupyterLab
 * From the file menu, save and then download your files to your local copy of the repository (replacing existing files if necessary). Note that if your instance of Binder times-out, use the Jupyter-Offline-Notebook toolbar to store the visible copy of the notebook (as described [here](https://github.com/manics/jupyter-offlinenotebook)). 
 * Finally, in GitHub desktop, enter a short commit summary and push the changes to the `master` branch of your online GitHub repository. Next time, simply return to your GitHub repo site and repeat the last four steps of these instructions to continue with your project.
+
+### Method 2
+
 
 If you use this resource, make it easier to find by giving the [acpennlab/statistics-resampling-project](https://github.com/acpennlab/statistics-resampling-project) repository a [star](https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars). 🌟
 
